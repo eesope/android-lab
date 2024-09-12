@@ -9,14 +9,14 @@ fun main() {
     }
 
     val lngestLst = mutableListOf<String>()
-    val maxLength = strArr.asList().sortedBy { it.length }.last().length
+    val maxLength = strArr.sortedBy { it.length }.last().length
     for (element in strArr) {
         if (element.length < maxLength) continue
         lngestLst.add(element)}
 
     val shrtestLst = mutableListOf<String>()
     var index = 0
-    val minLength = strArr.asList().sortedBy { it.length }[0].length
+    val minLength = strArr.sortedBy { it.length }[0].length
     while (index < strArr.size && strArr[index].length < minLength) shrtestLst.add(strArr[index++])
 
     println(
