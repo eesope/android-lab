@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Lab7SaeyoungPark</string>
+    
+    <string-array name="starwars_names">
+        <item>Ahsoka</item>
+        <item>BB-8</item>
+        <item>C-3PO</item>
+        <item>Chewbacca</item>
+        <item>Grogu</item>
+        <item>Jabba the Hutt</item>
+        <item>Kilo</item>
+        <item>Trooper</item>
+        <item>Yoda</item>
+    </string-array>
+</resources>
